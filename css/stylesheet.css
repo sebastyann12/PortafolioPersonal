@@ -205,6 +205,8 @@ header .navbar ul li a:hover{
 
 
 
+
+
 .education .box-container{
     display: flex;
     align-items: center;
@@ -281,6 +283,37 @@ header .navbar ul li a:hover{
 .proyectos .box-container .box:hover img{
     transform: scale(1.2);
 }
+
+.proyectos .title{
+    
+    color:#fff;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin:2rem;
+}
+
+
+.proyectos .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyectos .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.proyectos .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+
 
 .contact .row{
     display: flex;
